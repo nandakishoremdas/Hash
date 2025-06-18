@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data noupdate="1">
+        <!-- Analytic product demo datas  -->
+        <record id="product_product_analytic_demo" model="product.product">
+            <field name="name">Analytic</field>
+            <field name="default_code">ANALY_0000</field>
+            <field name="list_price">0</field>
+            <field name="taxes_id" eval="False"/>
+            <field name="supplier_taxes_id" eval="False"/>
+            <field name="detailed_type">service</field>
+        </record>
+    </data>
+</odoo>
